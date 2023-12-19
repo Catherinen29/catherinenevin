@@ -16,12 +16,26 @@ header {
     background-color: #0C5832;
     padding: 1rem;
 }
-header h2 {
+.some-header {
     background-color: white;
     border-radius: 1rem;
-    width: 80%;
+    box-shadow: 5px 5px 10px 1px black;
+    width: fit-content;
     margin: auto;
-    padding: 0 2rem;;
+    padding: 0.2rem 1rem;
+    font-weight: bold;
+}
+.some-header ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0.5rem;
+    padding: 0;
+}
+.some-header li {
+    padding-right: 1rem;
+}
+#li-name {
+    margin-right: 2rem;;
 }
 
 h1 {
@@ -33,10 +47,15 @@ h1 {
     background-color: #0C5832;
     color: #8ADAB2;
     padding: 2rem;
+    padding-top: 0;
 }
+.welcome h1 {
+    border-bottom: solid #8ADAB2 0.1rem;
+    padding: 1rem 0 2rem 0;
+    margin-top: 0;
+}
+
 .welcome p {
-    border-top: solid #8ADAB2 0.1rem;
-    padding: 2rem;
     padding-bottom: 0;
     color: #8ADAB2;
 }
@@ -69,7 +88,6 @@ h1 {
     color: #C83E4D;
     padding: 2rem;
 }
-
 .project-group {
     border-top: solid #C83E4D 0.1rem;
     padding-top: 1rem;
@@ -77,7 +95,6 @@ h1 {
     flex-wrap: wrap;
     margin: auto;
 }
-
 .project-group p {
     background-color: white;
     color: black;
@@ -87,6 +104,29 @@ h1 {
     width: 40%;
     padding: 1rem;
     
+}
+
+.tech {
+    background-color: #1148C7;
+    color: #43B5E9;
+    padding: 2rem;
+}
+
+.tech-list {
+    border-top: solid #43B5E9 0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tech ul {
+    background-color: white;
+    color: black;
+    border: solid #43B5E9 0.2rem;
+    border-radius: 0.5rem;
+    margin: 1rem;;
+    padding: 1rem 2rem;
+    list-style-type: none;
 }
 
 .contact {
