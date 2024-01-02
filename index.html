@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shape.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap" rel="stylesheet">
 
@@ -16,15 +17,62 @@
     <header>
         <div class="some-header">
             <ul>
-                <li id="li-name">Catherine</li>
-                <li>Intro</li>
-                <li>Experience</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li id="header-name">Catherine</li>
+                <a href="#introduction">Intro</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </ul>          
         </div>
 
+        <div class="shapes">
+            <div class="circles">
+                <div id="circle1"></div>
+                <div id="circle2"></div>
+                <div id="circle3"></div>
+            </div>
+            <div class="triangles">
+                <div id="triangle1"></div>            
+                <div id="triangle2"></div>
+                <div id="triangle3"></div>    
+            </div>
+            <div class="rectangles">
+                <div id="rect1"></div>
+                <div id="rect2"></div>
+                <div id="rect1"></div>
+                <div id="rect2"></div>
+                <div id="rect1"></div>
+                <div id="rect2"></div>
+            </div>
+    
+            <div class="halfmoons">
+                <div id="moonbox1">
+                    <div id="moon1"></div>
+                </div>
+                <div id="moonbox2">
+                    <div id="moon2"></div>
+                </div>  
+                <div id="moonbox3">
+                    <div id="moon3"></div>
+                </div>  
+            </div>
+
+            <div class="diamonds">
+                <div id="diamondbox1">
+                    <div id="diamond1"></div>
+                </div>
+                <div id="diamondbox2">
+                    <div id="diamond2"></div>
+                </div>
+                <div id="diamondbox3">
+                    <div id="diamond3"></div>
+                </div>
+            </div>
+
+        </div>
+        
     </header>
+
 
     <div class="welcome">
         <h1>Catherine Nevin.</h1>
@@ -32,24 +80,29 @@
         <p>Software engineer. Lover of fiction, food & craft beer.</p>
     </div>
 
-    <div class="introduction">
+    <div class="introduction" id="introduction">
         <h1>Introduction</h1>
-        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-            in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="para">With a background in housing and estate regeneration, my journey into 
+            software engineering began while leading CRM development and user testing at Newlon 
+            Housing Trust. I then joined the Software Engineering Immersive at General Assembly, 
+            preparing me for a strong start in software development. </p>
+
+        <p class="para">Proficient in JavaScript and React, I've honed skills in frontend interactions as 
+            well as database development. Known for my resourcefulness, thoroughness, and a 
+            genuine enthusiasm for witnessing the impact of hard work, I contribute as a dedicated 
+            team member. Seeking a role that combines my passion for continuous learning and 
+            skill development, I hope to collaborate with diverse individuals, 
+            leveraging our collective knowledge for top-tier results..</p>
     </div>
 
-    <div class="experience">
+    <div class="experience" id="experience">
         <h1>Experience</h1>
         <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
 
-    <div class="projects">
+    <div class="projects" id="projects">
         <h1>Projects</h1>
         <div class="project-group">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -65,7 +118,7 @@
         </div>
     </div>
 
-    <div class="tech">
+    <div class="tech" id="tech">
         <h1>Technologies</h1>
 
         <div class="tech-list">
@@ -90,11 +143,18 @@
         </div>      
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <h1>Contact me</h1>
-        <p>Email</p>
-        <p>LinkedIn</p>
-        <p>GitHub</p>
+        <div class="contact-links">
+            <p>Email</p>
+            <p>LinkedIn</p>
+            <p>GitHub</p>
+        </div>
     </div>
+
+
+    <a href="#" id="page-top">
+        <div id="page-top-arrow"></div>
+    </a>
 </body>
 </html>

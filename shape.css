@@ -1,0 +1,179 @@
+.shapes {
+    display: inline;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    max-height: 10rem;
+    padding: 0;
+    font-size: 0;
+    overflow: hidden; 
+    overflow-x: hidden;
+}
+.circles {
+    background-color: #E2511C;
+    display: inline-block;
+    max-height: 10rem;
+}
+#circle1 {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #8ADAB2;
+}
+#circle2 {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FFD45D;
+}
+#circle3 {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #F4D6CC;
+}
+
+.triangles {
+    display: inline;
+    max-height: 10rem;
+}
+#triangle1 {
+    height: 0;
+    width: 0;
+    border-top: 5rem solid transparent;
+    border-left: 8rem solid #1148C7;
+    border-bottom: 5rem solid transparent;
+    background-color: #43B5E9;
+    display: inline-block;
+}
+#triangle2 {
+    height: 0;
+    width: 0;
+    border-top: 5rem solid transparent;
+    border-left: 8rem solid #C83E4D;
+    border-bottom: 5rem solid transparent;
+    background-color: #43B5E9;
+    display: inline-block;
+}
+
+#triangle3 {
+    height: 0;
+    width: 0;
+    border-top: 5rem solid transparent;
+    border-left: 8rem solid #FFD45D;
+    border-bottom: 5rem solid transparent;
+    background-color: #43B5E9;
+    display: inline-block;
+}
+
+.rectangles {
+    display: inline;
+    max-height: 10rem;
+}
+#rect1 {
+    width: 3rem;
+    height: 10rem;
+    background-color: #F4D6CC;
+    display: inline-block;
+}
+#rect2 {
+    width: 3rem;
+    height: 10rem;
+    background-color: #E2511C;
+    display: inline-block;
+}
+
+.halfmoons {
+    display: inline;
+    max-height: 10rem;
+}
+#moonbox1 {
+    display: inline-block;
+    background-color: #8ADAB2;
+}
+#moon1 {
+    width: 8rem;
+    height: 10rem;
+    border-radius: 0 50% 50% 0;
+    background-color: #1148C7;
+}
+#moonbox2 {
+    display: inline-block;
+    background-color: #F4D6CC;
+}
+#moon2 {
+    width: 8rem;
+    height: 10rem;
+    border-radius: 0 50% 50% 0;
+    display: inline-block;
+    background-color: #0C5832;
+}
+#moonbox3 {
+    display: inline-block;
+    background-color: #43B5E9;
+}
+#moon3 {
+    width: 8rem;
+    height: 10rem;
+    border-radius: 0 50% 50% 0;
+    display: inline-block;
+    background-color: #C83E4D;
+}
+
+.diamonds {
+    display: inline;
+    max-height: 10rem;
+}
+#diamondbox1 {
+    width: 10rem;
+    height: 10rem;
+    background-color: #FFD45D;
+    display: inline-block;
+}
+#diamond1 {
+    width: 7rem;
+    height: 7rem;
+    background-color: #E2511C;
+    transform: rotate(45deg) translate(2rem);
+}
+#diamondbox2 {
+    width: 10rem;
+    height: 10rem;
+    background-color: #1148C7;
+    display: inline-block;
+}
+#diamond2 {
+    width: 7rem;
+    height: 7rem;
+    background-color: white;
+    transform: rotate(45deg) translate(2rem);
+}
+#diamondbox3 {
+    width: 10rem;
+    height: 10rem;
+    background-color: #F4D6CC;
+    display: inline-block;
+}
+#diamond3 {
+    width: 7rem;
+    height: 7rem;
+    background-color: #8ADAB2;
+    transform: rotate(45deg) translate(2rem);
+}
+
+
+#rect3 {
+    width: 3rem;
+    height: 10rem;
+    background-color: #FFD45D;
+    display: inline-block;
+}
+#rect4 {
+    width: 3rem;
+    height: 10rem;
+    background-color: #8ADAB2;
+    display: inline-block;
+}
