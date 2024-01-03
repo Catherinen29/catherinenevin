@@ -115,37 +115,58 @@ h1 {
     border-bottom: solid #C83E4D 0.1rem;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
+    /* margin: 0; */
+}
+.projects h4 {
+    border-bottom: solid #C83E4D 0.1rem;
+    padding-bottom: 0.5rem;
 }
 .project-group {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
     justify-content: center;
-    margin: auto;
+    margin: auto 5rem;
+    
 }
 .project {
     background-color: white;
     color: black;
-    border: solid #C83E4D 0.2rem;
     border-radius: 0.5rem;
-    margin: 1rem;;
-    /* width: 40%; */
+    margin: 1rem;
     padding: 1rem;
     font-size: 20px; 
 }
 
 #p4, #p3, #p2, #p1 {
-    width: 40%;
-    height: 20rem;
+    width: 90%;
+    height: 25rem;
     background-color: transparent;
     perspective: 40%;
     padding: 0;
+    justify-self: center;
+}
+#p4, #p2 {
+    grid-column: 1;
+}
+#p3, #p1 {
+    grid-column: 2;
+}
+#p4, #p3 {
+    grid-row: 1;
+    padding-bottom: 1.5rem;
+}
+#p2, #p1 {
+    grid-row: 2;
 }
 .card-inner {
+    border: solid #C83E4D 0.2rem;
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 1s;
     transform-style: preserve-3d;
     background-color: white;
     border-radius: 0.5rem;
@@ -165,30 +186,48 @@ h1 {
 .card-front, .card-back {
     position: absolute;
     height: 100%;
+    width: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
 }
-.card-front {
-    padding: 0 1rem;
-}
 .card-back {
     transform: rotateY(180deg);
-    /* overflow: hidden;  */
-    overflow-y: hidden;
-    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-#bookclub-img, #eventMate-img{
-    /* max-width: 100%; */
-    max-height: 100%;
+.card-back p {
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+}
+.card-back a {
+    text-decoration: none;
+}
+#bookclub-img, #eventMate-img,
+#recipe-img, #tictactoe-img  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
     margin: 0;
     border-radius: 0.5rem;
+}
+#eventMate-img {
+    object-position: 15%;
 }
 #recipe-img, #tictactoe-img {
-    max-width: 100%;
-    /* max-height: 100%; */
-    margin: 0;
-    border-radius: 0.5rem;
+    object-position: center top;
 }
+.github-link, .app-link {
+    width: 3rem;
+    height: 3rem;
+}
+.github-link {
+    margin-right: 2rem;
+}
+
+
 .tech {
     background-color: #1148C7;
     color: #43B5E9;
@@ -198,6 +237,9 @@ h1 {
     border-bottom: solid #43B5E9 0.1rem;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
+}
+.tech p {
+    font-size: 20px;
 }
 .tech-list {
     display: flex;
@@ -236,8 +278,8 @@ h1 {
     padding: 0 3rem;
 }
 
-#page-top {
-    display: flex;
+#pageTop {
+    display: none;
     position: fixed;
     margin-top: 100vh;
     justify-content: center;
@@ -252,7 +294,7 @@ h1 {
     background-color: transparent;
     text-align: center;
 }
-#page-top-arrow {
+#pageTopArrow {
     display: inline-block;
     margin-top: 0.5rem;
     width: 1.2rem;
@@ -262,4 +304,14 @@ h1 {
     -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
+}
+.pageTopEntrance {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: pageTopEntrance;
+}
+.pageTopExit {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;  
+    animation-name: pageTopExit;
 }
