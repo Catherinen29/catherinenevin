@@ -1,0 +1,122 @@
+.tech-list #circle1 {
+    align-self: flex-end;
+    /* left: -18%; */
+    /* top: -8%; */
+}
+.html-group {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -75%);
+    text-align: center;
+}
+.html-group p {
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    border-top: 1px solid white;
+    padding: 0.5rem;
+}
+.tech-list #moon2 {
+    width: 10rem;
+    height: 15rem;
+    border-radius:  0 0 4rem 4rem;
+}
+.tech-list #triangle2 {
+    border-top: 5rem solid transparent;
+    border-left: 9rem solid #C83E4D;
+    border-bottom: 5rem solid transparent;
+    /* left: -18%; */
+    /* top: -8%; */
+    align-self: flex-end;
+}
+.tech-list #moon3 {
+    width: 12rem;
+    border-radius:  40% 0% 40% 0;
+    /* left: -10%; */
+    /* transform: translate(70%); */
+}
+
+#rails-logo, #sqlite-logo, 
+#mongoose-logo, #mui-logo {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#mongoose-logo {
+    left: 50%;
+    width: 8rem;
+    height: auto;
+}
+#sqlite-logo {
+    height: auto;
+}
+#mui-logo {
+    width: 4rem;
+    height: 4rem;
+}
+#javascript-logo {
+    width: 10rem;
+    height: 5rem;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%, -50%);
+}
+
+.tech-list #diamondbox1 {
+    background-color: white;
+    border-radius: 2rem;
+}
+#css-logo {
+    width: 7rem;
+    height: 6rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+#react-logo {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+
+.tech-list #diamond3 {
+    width: 8rem;
+    height: 8rem;
+    transform: rotate(45deg);
+    position: relative;
+    left: 15%;
+    top: -20%;
+    /* margin-left: 3rem;
+    margin-top: -1rem; */
+}
+#ruby-logo {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+#mongodb-logo {
+    height: 3rem;
+    width: 10rem;
+    position: absolute;
+    left: -20%;
+    transform: translate(20%, 80%);
+}
+
+#trapezium-box {
+    width: 10rem;
+}
+

@@ -57,7 +57,7 @@ h1 {
 .welcome {
     background-color: #0C5832;
     color: #8ADAB2;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 .welcome h1 {
     border-bottom: solid #8ADAB2 0.1rem;
@@ -76,7 +76,7 @@ h1 {
 .introduction {
     background-color: #43B5E9;
     color: #1148C7;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 .introduction h1 {
     padding-bottom: 1rem;
@@ -90,7 +90,7 @@ h1 {
 }
 
 .experience {
-    padding: 1rem 2rem;
+    padding: 2rem 4rem;
     background-color: #FFD45D;
     color: #E2511C;
 }
@@ -109,7 +109,7 @@ h1 {
 .projects {
     background-color: #F4D6CC;
     color: #C83E4D;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 .projects h1 {
     border-bottom: solid #C83E4D 0.1rem;
@@ -231,7 +231,15 @@ h1 {
 .tech {
     background-color: #1148C7;
     color: #43B5E9;
-    padding: 2rem;
+    padding: 5rem 4rem;
+    height: auto;
+    display: flex;
+    /* flex-direction: row; */
+}
+.tech-text {
+    border-right: solid #43B5E9 0.1rem;
+    padding-right: 8rem;
+    /* margin-right: 5rem; */
 }
 .tech h1 {
     border-bottom: solid #43B5E9 0.1rem;
@@ -240,11 +248,15 @@ h1 {
 }
 .tech p {
     font-size: 20px;
+    padding: 0rem 2rem
 }
 .tech-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: 35rem;
+    display: inline-flex;
+    flex-flow: column wrap;
+    margin: auto;
+    justify-content: center; 
+    align-self: center;
 }
 
 .tech ul {
