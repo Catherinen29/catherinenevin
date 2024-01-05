@@ -9,6 +9,17 @@
     overflow: hidden; 
     overflow-x: hidden;
 }
+.transparent-box {
+    width: 7rem;
+    height: 7rem;
+    border: 1rem solid transparent;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    align-self: flex-end;
+}
+
+
 .circles {
     background-color: #E2511C;
     display: inline-block;
@@ -126,6 +137,15 @@
     background-color: #C83E4D;
     position: relative;
 }
+#moon4 {
+    width: 8rem;
+    height: 10rem;
+    border-radius: 50% 0% 0% 50%;
+    display: inline-block;
+    background-color: #D65CA9;
+    position: relative;
+    left: 10%;
+}
 
 .diamonds {
     display: inline;
@@ -191,7 +211,6 @@
     position: relative;
     align-self: flex-end;
 }
-
 #box2 {
     width: 7rem;
     height: 7rem;
@@ -201,6 +220,7 @@
     position: relative;
     /* align-self: flex-end; */
 }
+
 #squircle {
     width: 12rem;
     height: 10rem;
@@ -208,8 +228,6 @@
     background-color: #FFD45D;
     display: inline-block;
     position: relative;
-    /* left: -5%; */
-    /* transform: translate(103%); */
 }
 
 #trapezium {
