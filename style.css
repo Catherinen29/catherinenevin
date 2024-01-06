@@ -304,12 +304,13 @@ h1 {
     justify-content: space-around;
     align-items: center;
     width: 15rem;
-    padding: 1rem 1rem;
+    padding: 1rem;
 }
 .contact-btns a {
     text-decoration: none;
     width: fit-content;
 }
+
 
 #pageTop {
     display: none;
