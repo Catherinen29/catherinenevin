@@ -43,7 +43,7 @@
 
 
 .welcome, .introduction {
-    padding: 2rem 1rem;
+    padding: 2rem;
 }
 .welcome p, .introduction p {
     font-size: 16px;
@@ -53,7 +53,7 @@
 
 
 .projects {
-    padding: 2rem 1rem;
+    padding: 2rem;
 }
 .project-group {
     display: flex;
@@ -92,7 +92,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 25rem;
-    padding: 2rem 1rem;
+    padding: 2rem;
 }
 .tech-text {
     border-right: 0;
@@ -105,12 +105,24 @@
     font-size: 16px;
     padding: 0 1rem;
 }
+.tech ul {
+    list-style:circle;
+    line-height: 2rem;
+    margin: 0;
+    padding-left: 2rem;
+    width: 20rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tech li {
+    width: 8rem;
+}
 .tech-list {
     transform: scale(0.6);
     position: relative;
     grid-row: 2;
     grid-column: 1;
-    left: -25%;
+    left: -28%;
     top: -15%;
     /* padding: 0; */
 }
@@ -124,7 +136,7 @@
 }
 
 .contact {
-    padding: 2rem 1rem;
+    padding: 2rem;
 }
 .contact h1 {
     margin-bottom: 0.5rem;
