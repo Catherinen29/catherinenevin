@@ -161,10 +161,6 @@ h1 {
 #p3, #p2 {
     grid-row: 2;
 }
-#p5 {
-    height: 20rem;
-    padding-bottom: 0;
-}
 .card-inner {
     border: solid #C83E4D 0.2rem;
     position: relative;
