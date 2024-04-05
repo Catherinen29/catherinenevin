@@ -103,19 +103,19 @@
     margin: 0;
     align-self: center;
 }
-#p4 {
+/* #p5 {
     margin-top: 0.5rem;
-}
-#p4, #p3, #p2, #p1 {
+} */
+#p5, #p4, #p3, #p2, #p1 {
     height: 18rem;
     width: 100%;
     padding-bottom: 1rem;
 }
-#p4, #p3 {
+#p5, #p4 {
     /* grid-row: 1; */
     padding-bottom: 0;
 }
-#p3, #p1 {
+#p4, #p2 {
     margin-left: 2rem;
 }
 .card-back {
@@ -208,16 +208,19 @@
     margin: 0;
     align-self: center;
 }
-#p4 {
+#p5 {
     margin-top: 0.5rem;
 }
-#p4, #p3, #p2, #p1 {
+#p5, #p4, #p3, #p2, #p1 {
     height: 20rem;
     width: 25rem;
     padding-bottom: 2rem;
 }
-#p3, #p1 {
+#p4, #p2 {
     margin-left: 0;
+}
+#corruptconnect-img {
+    object-position: center top;
 }
 .card-back {
     font-size: 16px;
@@ -240,7 +243,6 @@
     display: none !important;
 }
 }
-
     
 
 @media screen and (max-width: 600px) {
@@ -375,7 +377,7 @@
 .project {
     margin: 0;
 }
-#p4, #p3, #p2, #p1 {
+#p5, #p4, #p3, #p2, #p1 {
     height: 15rem;
     width: 100%;
     padding-bottom: 2rem;
